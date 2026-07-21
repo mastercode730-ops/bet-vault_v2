@@ -1,0 +1,29 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141210"/>
+      <stop offset="100%" stop-color="#0C0C0D"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0C75E"/>
+      <stop offset="100%" stop-color="#A6852B"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <g opacity="0.08" stroke="#D4AF37" stroke-width="1">
+    <line x1="80" y1="0" x2="80" y2="450"/>
+    <line x1="720" y1="0" x2="720" y2="450"/>
+  </g>
+  <g transform="translate(300,110)" stroke="url(#gold)" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M100 0 L190 30 L190 110 C190 165 150 205 100 225 C50 205 10 165 10 110 L10 30 Z"/>
+    <path d="M60 115 L88 143 L145 85"/>
+  </g>
+  <g transform="translate(540,150)" stroke="url(#gold)" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="20" width="130" height="85" rx="12"/>
+    <path d="M18 20 V0 H112 V20"/>
+    <circle cx="100" cy="62" r="4" fill="url(#gold)" stroke="none"/>
+  </g>
+  <g transform="translate(150,270)" stroke="url(#gold)" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M0 30 L14 0 L28 30 M4 20 H24"/>
+  </g>
+</svg>

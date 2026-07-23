@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://betvault.in'),
   title: "Bet Vault — A Cricket Betting ID You Can Actually Trust",
   description: "Bet Vault sets up your cricket betting ID by hand, over WhatsApp, usually in a few minutes. No apps, no forms, no runaround — just a real team backing you up.",
   keywords: "cricket betting ID, IPL betting ID, online betting ID India, Bet Vault",
@@ -18,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" data-scroll-behavior="smooth">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

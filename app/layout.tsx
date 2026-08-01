@@ -8,11 +8,11 @@ export const metadata: Metadata = {
     apple: '/apple-icon.png',
   },
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://betvaultstar.com'),
-  title: "Bet Vault — A Cricket Betting ID You Can Actually Trust",
+  title: "BetVault | Online Cricket Betting, Sports Betting & Casino",
   description: "Bet Vault sets up your cricket betting ID by hand, over WhatsApp, usually in a few minutes. No apps, no forms, no runaround — just a real team backing you up.",
   keywords: "cricket betting ID, IPL betting ID, online betting ID India, Bet Vault",
   openGraph: {
-    title: "Bet Vault — A Cricket Betting ID You Can Actually Trust",
+    title: "BetVault | Online Cricket Betting, Sports Betting & Casino",
     description: "We set up cricket betting IDs by hand, over WhatsApp. Fast, honest, and backed by a team that actually replies.",
     type: "website",
   },

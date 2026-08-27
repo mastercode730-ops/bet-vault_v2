@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     description: "We set up cricket betting IDs by hand, over WhatsApp. Fast, honest, and backed by a team that actually replies.",
     type: "website",
   },
+  verification: {
+    google: "rstEDzX2HqQrY3ehXW6HGtoWJbEOT1lGuNtM_ZVvap0",
+  },
 };
 
 export default function RootLayout({
@@ -26,7 +29,6 @@ export default function RootLayout({
   return (
     <html lang="en" data-scroll-behavior="smooth" suppressHydrationWarning>
       <head>
-        <meta name="google-site-verification" content="rstEDzX2HqQrY3ehXW6HGtoWJbEOT1lGuNtM_ZVvap0" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-G37D90CR7L"></script>
         <script
           dangerouslySetInnerHTML={{

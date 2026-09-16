@@ -8,7 +8,7 @@ const voices = [
   {
     name: 'Arjun K.',
     location: 'Chennai',
-    text: "First time betting seriously was IPL 2026. One withdrawal took a bit longer than usual — but they messaged ME to explain why before I even asked. That mattered more than if it had gone perfectly.",
+    text: "First time playing seriously was IPL 2026. One withdrawal took a bit longer than usual — but they messaged ME to explain why before I even asked. That mattered more than if it had gone perfectly.",
     tag: 'IPL',
   },
   {

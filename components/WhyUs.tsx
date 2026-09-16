@@ -26,7 +26,7 @@ const points = [
   },
   {
     title: 'Honest about the risk',
-    desc: "Betting isn't a plan for rent money, and we'll say that plainly — every single time, not just in the footer.",
+    desc: "Playing isn't a plan for rent money, and we'll say that plainly — every single time, not just in the footer.",
     icon: 'shield',
   },
 ];
@@ -43,7 +43,7 @@ export default function WhyUs() {
             Nothing revolutionary. Just done properly.
           </h2>
           <p style={{ color: 'var(--charcoal-soft)' }} className="text-sm sm:text-base leading-relaxed">
-            We're not going to tell you we reinvented online betting. We just got tired of platforms
+            We're not going to tell you we reinvented online gaming. We just got tired of platforms
             that made simple things difficult, so we built the version that doesn't.
           </p>
         </div>

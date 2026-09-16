@@ -1,7 +1,7 @@
 import { waLink } from '@/lib/whatsapp';
 
 export default function Hero() {
-  const whatsappUrl = waLink("Hey Bet Vault, I'd like to get my betting ID set up.");
+  const whatsappUrl = waLink("Hey Bet Vault, I'd like to get my ID set up.");
 
   return (
     <section
@@ -23,13 +23,13 @@ export default function Hero() {
           </div>
 
           <h1 className="serif font-medium text-white mb-6" style={{ fontSize: 'clamp(2.1rem, 5.5vw, 4rem)', lineHeight: 1.08 }}>
-            Betting IDs shouldn&apos;t feel like{' '}
+            IDs shouldn&apos;t feel like{' '}
             <span className="gold-text italic">opening a bank account.</span>
           </h1>
 
           <p className="text-gray-400 text-base sm:text-lg leading-relaxed mb-4 max-w-xl">
             So we skipped the forms. Message us on WhatsApp, tell us what you need, and someone on
-            our team gets your cricket betting ID sorted — usually before you&apos;ve finished your tea.
+            our team gets your cricket ID sorted — usually before you&apos;ve finished your tea.
           </p>
           <p className="text-gray-500 text-sm sm:text-base leading-relaxed mb-9 max-w-xl">
             No app to install. No twenty-question sign-up. Just cricket, football, and a few other

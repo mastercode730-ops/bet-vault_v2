@@ -42,10 +42,10 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'Decide your unit size before the season, not during it',
-        body: "This one has nothing to do with cricket and everything to do with not doing anything silly. Pick a fixed amount you're comfortable betting per match and stick to it. The moment you start increasing bets to chase a bad week is the moment a good season turns into a forgettable one.",
+        body: "This one has nothing to do with cricket and everything to do with not doing anything silly. Pick a fixed amount you're comfortable playing per match and stick to it. The moment you start increasing bets to chase a bad week is the moment a good season turns into a forgettable one.",
       },
       {
-        heading: 'Watch the first few overs before betting live',
+        heading: 'Watch the first few overs before playing live',
         body: "Pre-match odds already price in everything that's public knowledge. What they can't price in is a pitch playing flatter than expected, or a bowler visibly not moving well in the first over. Waiting five minutes before placing a live bet can genuinely change the value you're getting.",
       },
       {
@@ -76,7 +76,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'Your login shows up in the same chat',
-        body: "Within a few minutes, you'll get a betting ID and password, right there in WhatsApp. That single ID gets you into cricket, football, casino games, and whatever else you're curious about.",
+        body: "Within a few minutes, you'll get an ID and password, right there in WhatsApp. That single ID gets you into cricket, football, casino games, and whatever else you're curious about.",
       },
       {
         heading: 'You deposit and you\'re playing',
@@ -97,7 +97,7 @@ export const blogPosts: BlogPost[] = [
     icon: '💰',
     title: "Where did my withdrawal go? (and how to make sure it doesn't happen)",
     excerpt:
-      'Slow withdrawals are the single biggest complaint about betting platforms in general. Here is what actually causes the delay, and how to avoid it.',
+      'Slow withdrawals are the single biggest complaint about platforms in general. Here is what actually causes the delay, and how to avoid it.',
     image: '/blog/payments.svg',
     readTime: '5 min read',
     sections: [
@@ -126,17 +126,17 @@ export const blogPosts: BlogPost[] = [
     ],
   },
   {
-    slug: 'football-betting-without-the-jargon',
+    slug: 'football-without-the-jargon',
     category: 'Football',
     icon: '⚽',
-    title: 'Football betting, minus the jargon',
+    title: 'Football, minus the jargon',
     excerpt:
       "Match winner, over/under, both teams to score — the handful of markets worth understanding before your first football bet, explained like we'd explain it to a friend.",
     image: '/blog/football.svg',
     readTime: '5 min read',
     sections: [
       {
-        body: "Football betting markets can look intimidating at first — there's a lot of terminology thrown around like everyone's supposed to already know it. Here's the short version, without the jargon.",
+        body: "Football markets can look intimidating at first — there's a lot of terminology thrown around like everyone's supposed to already know it. Here's the short version, without the jargon.",
       },
       {
         heading: 'Match winner (also called 1X2)',
@@ -144,7 +144,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'Over/under goals',
-        body: "This one isn't about who wins — it's about the total number of goals in the match. A common line is 2.5, and you're betting whether the combined score ends up above or below that.",
+        body: "This one isn't about who wins — it's about the total number of goals in the match. A common line is 2.5, and you're predicting whether the combined score ends up above or below that.",
       },
       {
         heading: 'Both teams to score',

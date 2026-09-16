@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: 'What sports are available on BetVault?',
-    a: "Available sports can change. Check the current sports or betting section on the website for the latest list and availability.",
+    a: "Available sports can change. Check the current sports section on the website for the latest list and availability.",
   },
   {
     q: 'Does BetVault provide live sports information?',

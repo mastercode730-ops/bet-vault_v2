@@ -8,12 +8,12 @@ export const metadata: Metadata = {
     apple: '/apple-icon.png',
   },
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://betvaultstar.com'),
-  title: "BetVault Official Guide | Sports & Cricket Betting",
-  description: "Explore BetVault information, cricket and sports betting resources, account guidance, casino information, and frequently asked questions.",
-  keywords: "cricket betting ID, IPL betting ID, online betting ID India, Bet Vault",
+  title: "BetVault Official Guide | Sports & Cricket",
+  description: "Explore BetVault information, cricket and sports resources, account guidance, casino information, and frequently asked questions.",
+  keywords: "cricket ID, IPL ID, online ID India, Bet Vault",
   openGraph: {
-    title: "BetVault Official Guide | Sports & Cricket Betting",
-    description: "Explore BetVault information, cricket and sports betting resources, account guidance, casino information, and frequently asked questions.",
+    title: "BetVault Official Guide | Sports & Cricket",
+    description: "Explore BetVault information, cricket and sports resources, account guidance, casino information, and frequently asked questions.",
     type: "website",
   },
   verification: {
@@ -69,8 +69,8 @@ export default function RootLayout({
                   "@type": "WebPage",
                   "@id": "http://betvaultstar.com/#webpage",
                   "url": "http://betvaultstar.com/",
-                  "name": "BetVault Official Guide | Sports & Cricket Betting",
-                  "description": "Explore BetVault information, cricket and sports betting resources, account guidance, casino information, and frequently asked questions.",
+                  "name": "BetVault Official Guide | Sports & Cricket",
+                  "description": "Explore BetVault information, cricket and sports resources, account guidance, casino information, and frequently asked questions.",
                   "isPartOf": {
                     "@id": "http://betvaultstar.com/#website"
                   }
@@ -109,7 +109,7 @@ export default function RootLayout({
                       "name": "What sports are available on BetVault?",
                       "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Available sports can change. Check the current sports or betting section on the website for the latest list and availability."
+                        "text": "Available sports can change. Check the current sports section on the website for the latest list and availability."
                       }
                     },
                     {
